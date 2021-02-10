@@ -12,7 +12,7 @@ This module lists all plugin/preferences in your codebase, and adds some options
 Just the regular stuff
 
 ```bash
-composer require itonomy/module-modificationdetector
+composer require itonomy/modification-detector
 ```
 
 ##Commands
