@@ -1,0 +1,27 @@
+{
+    "name": "itonomy/module-modificationdetector",
+    "description": "Find modifications in Magento2 project",
+    "type": "magento2-module",
+    "version": "0.0.2",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name":"Ben van Steenbergen",
+            "email":"ben.vansteenbergen@itonomy.nl"
+        }
+    ],
+    "require": {
+        "magento/framework": "~103.0.0",
+        "php": "~7.3.0|~7.4.0"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Itonomy\\ModificationDetector\\": "src/"
+        }
+    }
+}
